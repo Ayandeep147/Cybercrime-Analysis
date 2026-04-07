@@ -6,7 +6,7 @@ def show_about_page():
     st.markdown("---")
 
     # ---------------- AUTHOR & MENTOR ----------------
-    st.title("Author & Mentor")
+    st.title("Mentor")
 
     # ---------- CONTENT ----------
     col1, col2, col3 = st.columns([1,0.2,2])
@@ -26,7 +26,7 @@ def show_about_page():
     st.markdown("---")
 
     # ---------------- CO-AUTHORS ----------------
-    st.markdown("<h1 style='text-align: center;'>Co-Authors</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>Team</h1>", unsafe_allow_html=True)
 
     col1, col2 = st.columns([1,1])
 
