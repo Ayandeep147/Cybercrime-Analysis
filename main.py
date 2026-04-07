@@ -73,7 +73,7 @@ else:
         # st.info("Please upload your cleaned dataset.")
         # st.stop()
     else:
-        df = load_data("data_files\\Crimes_Cleaned.csv")
+        df = load_data("data_files/Crimes_Cleaned.csv")
 
     # df = load_data(uploaded_file)
     district_table_df = get_district_table()
