@@ -4,26 +4,6 @@ from src.analysis_page import show_analysis_page
 from src.ml_page import show_ml_page
 from src.utils import get_district_table
 from src.about import show_about_page
-import base64
-import os
-import streamlit as st
-
-def set_bg():
-    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    image_path = os.path.join(BASE_DIR, "assets", "bg.png")
-
-    with open(image_path, "rb") as f:
-        data = base64.b64encode(f.read()).decode()
-
-    st.markdown(f"""
-    <style>
-    .stApp {{
-        background-image: url("data:image/png;base64,{data}");
-        background-size: cover;
-        background-position: center;
-    }}
-    </style>
-    """, unsafe_allow_html=True)
 
 
 st.set_page_config(page_title="A Hybrid Machine Learning Framework for Geospatial Cyber Crime Prediction and Demographic Pattern Analysis", layout="wide")
@@ -93,7 +73,7 @@ else:
         # st.info("Please upload your cleaned dataset.")
         # st.stop()
     else:
-        df = load_data("data_cleaing_and_analysis\data_files\Crimes_Cleaned.csv")
+        df = load_data("data_files\\Crimes_Cleaned.csv")
 
     # df = load_data(uploaded_file)
     district_table_df = get_district_table()
