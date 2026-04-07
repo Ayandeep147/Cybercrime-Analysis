@@ -35,18 +35,18 @@ def show_home_page():
         """
         <div style="text-align:center; padding: 40px 0; color: white;">
             <h1>A Hybrid Machine Learning Framework for Geospatial Cyber Crime Prediction and Demographic Pattern Analysis</h1>
-            <h2 style="font-size:18px;">33rd West Bengal State Science & Technology Congress, 2025–26</h2>
+            <br></br>
 
             <hr style="width:60%; margin:auto;">
 
-            <h3 style="margin-top:30px;">Author</h3>
+            <h3 style="margin-top:30px;">Mentor</h3>
             <p><b>Dr. Anupam Mukherjee</b></p>
             <p>Department of Computer Science & Engineering</p>
             <p>Siliguri Institute of Technology</p>
 
             <hr style="width:40%; margin:auto;">
 
-            <h3 style="margin-top:30px;">Co-Authors</h3>
+            <h3 style="margin-top:30px;">Team</h3>
             <p>
                 Ayandeep Roy &nbsp; | &nbsp; 
                 Suryashis Banerjee &nbsp; | &nbsp; 
