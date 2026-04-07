@@ -7,7 +7,7 @@ from src.about import show_about_page
 import base64
 
 def set_bg():
-    with open("assets\\Gemini_Generated_Image_rr7zpqrr7zpqrr7z.pngs", "rb") as f:
+    with open("assets\bg.png", "rb") as f:
         data = base64.b64encode(f.read()).decode()
 
     st.markdown(f"""
