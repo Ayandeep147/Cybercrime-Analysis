@@ -8,7 +8,7 @@ from src.about import show_about_page
 import base64
 
 def set_bg():
-    with open("assets/abstract-techno-background-with-connecting-dots.jpg.jpeg", "rb") as f:
+    with open("assets/Abstract Technology.jpg.jpeg", "rb") as f:
         data = base64.b64encode(f.read()).decode()
 
     st.markdown(f"""
