@@ -8,7 +8,7 @@ from src.about import show_about_page
 import base64
 
 def set_bg():
-    with open("assets/image_9e010f62.png", "rb") as f:
+    with open("assets/image_d9e0230b.png", "rb") as f:
         data = base64.b64encode(f.read()).decode()
 
     st.markdown(f"""
